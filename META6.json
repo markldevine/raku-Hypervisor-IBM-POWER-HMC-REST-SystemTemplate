@@ -1,24 +1,24 @@
 {
-  "auth":           "github:markldevine",
-  "authors":        [ "Mark Devine <mark@markdevine.com>" ],
-  "depends":        [
-    "Hypervisor::IBM::POWER::HMC::REST::Atom",
-    "Hypervisor::IBM::POWER::HMC::REST::Config",
-    "Hypervisor::IBM::POWER::HMC::REST::ETL::XML"
-  ],
-  "description":    "IBM POWER HMC REST API - SystemTemplate",
-  "license":        "Artistic-2.0",
-  "meta-version":   0,
-  "name":           "Hypervisor::IBM::POWER::HMC::REST::SystemTemplate",
-  "perl":           "6.*",
-  "provides":       {
-    "Hypervisor::IBM::POWER::HMC::REST::SystemTemplate": "lib/Hypervisor/IBM/POWER/HMC/REST/SystemTemplate.rakumod"
-  },
-  "resources":      [],
-  "source-url":     "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC-REST-SystemTemplate.git",
-  "tags":           [
-    "HMC",
-    "REST"
-  ],
-  "version":        "0.0.1"
+    "auth":         "github:markldevine",
+    "authors":      [ "Mark Devine <mark@markdevine.com>" ],
+    "depends":      [
+        "Hypervisor::IBM::POWER::HMC::REST::Atom",
+        "Hypervisor::IBM::POWER::HMC::REST::Config",
+        "Hypervisor::IBM::POWER::HMC::REST::ETL::XML"
+    ],
+    "description":  "IBM POWER HMC REST API - SystemTemplate",
+    "license":      "Artistic-2.0",
+    "meta-version": 0,
+    "name":         "Hypervisor::IBM::POWER::HMC::REST::SystemTemplate",
+    "perl":         "6.*",
+    "provides":     {
+        "Hypervisor::IBM::POWER::HMC::REST::SystemTemplate": "lib/Hypervisor/IBM/POWER/HMC/REST/SystemTemplate.rakumod"
+    },
+    "resources":    [],
+    "source-url":   "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC-REST-SystemTemplate.git",
+    "tags":         [
+        "HMC",
+        "REST"
+    ],
+    "version":      "0.0.1"
 }
