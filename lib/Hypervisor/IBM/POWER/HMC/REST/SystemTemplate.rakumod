@@ -1,7 +1,6 @@
 need    Hypervisor::IBM::POWER::HMC::REST::Atom;
 need    Hypervisor::IBM::POWER::HMC::REST::Config;
 need    Hypervisor::IBM::POWER::HMC::REST::ETL::XML;
-use     URI;
 unit    class Hypervisor::IBM::POWER::HMC::REST::SystemTemplate:api<1>:auth<Mark Devine (mark@markdevine.com)>
             does Hypervisor::IBM::POWER::HMC::REST::ETL::XML;
 
