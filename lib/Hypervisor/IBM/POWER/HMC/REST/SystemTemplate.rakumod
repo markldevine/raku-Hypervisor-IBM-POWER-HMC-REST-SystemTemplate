@@ -27,7 +27,7 @@ method init () {
     self.etl-parse-path(:$xml-path);
     self.config.diag.post:  sprintf("%-20s %10s: %11s", self.^name.subst(/^.+'::'(.+)$/, {$0}), 'PARSE', sprintf("%.3f", now - $parse-start)) if %*ENV<HIPH_PARSE>;
     $!initialized           = True;
-    self.load               if self.config.optimization-init-load;
+    self.load               if self.config.optimizations.init-load;
     self.config.diag.post:  sprintf("%-20s %10s: %11s", self.^name.subst(/^.+'::'(.+)$/, {$0}), 'INITIALIZE', sprintf("%.3f", now - $init-start)) if %*ENV<HIPH_INIT>;
     self;
 }
